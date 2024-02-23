@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page esthétique</title>
+    <style>
+        body {
+            background-color: #ffffff; /* blanc */
+            color: #000000; /* noir */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000010; /* bleu foncé */
+            color: #ffffff; /* blanc */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #000000; /* noir */
+            color: #ffffff; /* blanc */
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .pub {
+            background-color: #000010; /* bleu foncé */
+            color: #ffffff; /* blanc */
+            padding: 40px; /* Ajustement de la taille de la publicité */
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Pour espacer les éléments horizontalement */
+            flex-wrap: wrap; /* Permettre le retour à la ligne si nécessaire */
+        }
+        .pub img {
+            width: 150px; /* ajustez la largeur de l'image selon votre besoin */
+            margin-right: 20px; /* espace entre l'image et le texte */
+        }
+        .pub button {
+            background-color: #ff0000; /* rouge */
+            color: #ffffff; /* blanc */
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #000010; /* bleu foncé */
+            color: #ffffff; /* blanc */
+            padding: 20px;
+            text-align: center;
+            clear: both; /* Assurer que le footer reste en bas même s'il y a du contenu flottant */
+        }
+        footer .contacts {
+            margin-bottom: 20px;
+            text-align: center; /* Centrage du texte */
+        }
+        footer .contacts h2 {
+            margin-bottom: 10px;
+            text-align: center; /* Centrage du texte */
+        }
+        footer .contacts ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center; /* Centrage du texte */
+        }
+        footer .contacts ul li {
+            margin-bottom: 5px;
+        }
+        footer .projects h2 {
+            margin-bottom: 10px;
+            text-align: center; /* Centrage du texte */
+        }
+        footer .projects ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center; /* Centrage du texte */
+        }
+        footer .projects ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="votre_image.jpg" alt="Logo de votre projet">
+    </div>
+    <h1>MVP'S PROJECT</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Produits</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Carrière</a></li>
+    </ul>
+</nav>
+<main>
+    <h2>Contenu principal de la page</h2>
+    <p>Ici, vous pouvez ajouter votre contenu principal.</p>
+    <div class="pub">
+        <div>
+            <img src="logo.vulcan.nobg.png">
+            <div>
+                <h3>Vulcan</h3>
+                <p>Une application pour forger les liens avec n'importe qui !</p>
+            </div>
+        </div>
+        <button>Télécharger</button>
+    </div>
+</main>
+<footer>
+    <div class="contacts" id="contact">
+        <h2>Nous contacter</h2>
+        <ul>
+            <li>Adresse: 123 Rue Principale, Ville, Pays</li>
+            <li>Téléphone: +123456789</li>
+            <li>Email: contact@example.com</li>
+        </ul>
+    </div>
+    <div class="projects" id="projects">
+        <h2>Nos projets</h2>
+        <ul>
+            <li>Projet 1</li>
+            <li>Projet 2</li>
+            <li>Projet 3</li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
